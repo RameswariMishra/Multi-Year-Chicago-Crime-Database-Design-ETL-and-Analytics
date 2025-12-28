@@ -37,7 +37,8 @@ The project covers **database design, data ingestion, cleaning, transformation, 
   1. crime year, month, and day
   2. Arrest indicators
   3. Crime category grouping
-```
+
+  ```
 - Ensured data integrity and consistency across years
 
 - Optimized data for querying and aggregation
