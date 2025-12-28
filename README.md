@@ -88,22 +88,30 @@ chicago-crime-etl-analytics/
 ## How to Run the Project
 
 - Clone the repository:
+
   ```
-git clone https://github.com/your-username/chicago-crime-etl-analytics.git
+  git clone https://github.com/your-username/chicago-crime-etl-analytics.git
 
-```
+  ```
+  
 - Install dependencies
-```
-pip install -r requirements.txt
+  
+  ```
+  pip install -r requirements.txt
 
-```
+  ```
 - Launch Jupyter Notebook
-```
-jupyter notebook
-```
-- Run notebooks in order:
-```
-- Multi-Year Chicago Crime Database Design, ETL, and Analytics Part1.ipynb
 
-- Multi-Year Chicago Crime Database Design, ETL, and Analytics Part2.ipynb
-```
+  ```
+  jupyter notebook
+  
+  ```
+  
+- Run notebooks in order:
+
+  ```
+  - Multi-Year Chicago Crime Database Design, ETL, and Analytics Part1.ipynb
+  
+  - Multi-Year Chicago Crime Database Design, ETL, and Analytics Part2.ipynb
+
+  ```
