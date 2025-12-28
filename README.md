@@ -115,3 +115,30 @@ chicago-crime-etl-analytics/
   - Multi-Year Chicago Crime Database Design, ETL, and Analytics Part2.ipynb
 
   ```
+## Impact & Relevance
+
+- Demonstrates how multi-year public crime data can be transformed through a structured ETL process into an analysis-ready database.
+- Enables long-term trend analysis and insight generation by integrating, cleaning, and standardizing large-scale crime records.
+- Highlights the practical application of database design, ETL pipelines, and analytical querying to support data-driven decision-making in the public sector.
+- Provides a reproducible framework for analyzing urban crime patterns, relevant to public safety planning, policy evaluation, and civic analytics initiatives.
+
+## Limitations & Future Work
+### Limitations
+
+- The analysis is based on **publicly reported crime data**, which may be subject to reporting delays, underreporting, or classification inconsistencies across years.
+- External contextual factors such as **socioeconomic conditions, policing policies, and demographic shifts** were not included, limiting explanatory depth.
+- The study focuses on **descriptive and trend-based analytics**; results are observational and do not establish causal relationships.
+- Data processing and analysis were performed in a **local analytical environment**, which may limit scalability for real-time or high-frequency data ingestion.
+
+### Future Enhancements
+
+- Migrate the ETL pipeline to a **cloud-based data platform** (e.g., AWS, Azure, or GCP) to support scalable ingestion, storage, and processing of multi-year crime data.
+- Implement **cloud data warehouses** (such as BigQuery, Redshift, or Snowflake) to enable faster analytical querying and integration with BI tools.
+- Extend the ETL pipeline to support **incremental and automated data updates** using scheduled workflows.
+- Incorporate **geospatial analysis** using spatial datasets to analyze crime patterns at neighborhood or district levels.
+- Integrate **socioeconomic and demographic datasets** to enrich analysis and provide deeper contextual insights.
+- Develop interactive **dashboards (Power BI / Tableau)** connected to cloud-hosted data sources for real-time exploration and stakeholder reporting.
+
+## Author
+
+Created by Rameswari Mishra
