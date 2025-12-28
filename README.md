@@ -33,12 +33,11 @@ The project covers **database design, data ingestion, cleaning, transformation, 
 - Transformed raw data into analysis-ready formats
 
 - Created derived features such as:
-  ```
+  
   1. crime year, month, and day
   2. Arrest indicators
   3. Crime category grouping
 
-  ```
 - Ensured data integrity and consistency across years
 
 - Optimized data for querying and aggregation
@@ -87,3 +86,24 @@ chicago-crime-etl-analytics/
 └── .gitignore
 ```
 ## How to Run the Project
+
+- Clone the repository:
+  ```
+git clone https://github.com/your-username/chicago-crime-etl-analytics.git
+
+```
+- Install dependencies
+```
+pip install -r requirements.txt
+
+```
+- Launch Jupyter Notebook
+```
+jupyter notebook
+```
+- Run notebooks in order:
+```
+- Multi-Year Chicago Crime Database Design, ETL, and Analytics Part1.ipynb
+
+- Multi-Year Chicago Crime Database Design, ETL, and Analytics Part2.ipynb
+```
